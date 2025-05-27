@@ -1,0 +1,10 @@
+routers:
+  R1:
+    management_ip: 192.168.1.101
+    interfaces:
+      - name: GigabitEthernet2
+        ip: 10.0.0.1
+        netmask: 255.255.255.0
+      - name: GigabitEthernet3
+        ip: 10.0.0.2
+        netmask: 255.255.255.0
